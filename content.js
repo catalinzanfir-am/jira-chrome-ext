@@ -1,5 +1,6 @@
 setInterval(function(){
     if (document.querySelectorAll('.ghx-card-footer')) {
+
         var issuesFooter = document.querySelectorAll('.ghx-card-footer');
 
         issuesFooter.forEach(function (item) {
@@ -15,6 +16,11 @@ setInterval(function(){
         issues.forEach(function (item) {
             item.style.padding = "5px 10px 5px 5px";
             item.style.margin = "5px 10px 5px 5px";
+        });
+
+        var swimLanes = document.querySelectorAll(".ghx-heading")
+        swimLanes.forEach(function (item) {
+            item.style.backgroundColor = "lightgrey"
         });
 
         var issuesContent = document.querySelectorAll('.ghx-issue .ghx-issue-content');

@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Jira smaller cards",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reduce noise from jira cards",
   "permissions": [
     "tabs", "https://jira.adoreme.com/*"
